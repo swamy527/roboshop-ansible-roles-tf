@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb-prod.beesh.life
+REDIS_HOST: redis-prod.beesh.life
+CATALOGUE_HOST: catalogue-prod.beesh.life
+CART_HOST: cart-prod.beesh.life
+USER_HOST: user-prod.beesh.life
+MYSQL_HOST: mysql-prod.beesh.life
+SHIPPING_HOST: shipping-prod.beesh.life
+RABBITMQ_HOST: rabbitmq-prod.beesh.life
+PAYMENT_HOST: payment-prod.beesh.life

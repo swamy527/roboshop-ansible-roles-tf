@@ -1,0 +1,17 @@
+- name: running script
+  ansible.builtin.shell: curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | bash
+- name: running script
+  ansible.builtin.shell: curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | bash
+- name: installing rabbitmq
+  ansible.builtin.dnf:
+    name: rabbitmq-server
+    state: present
+- name: start the service
+  ansible.builtin.service:
+    name: rabbitmq-server 
+    state: started
+    enabled: true
+- name: adding user to 
+  ansible.builtin.shell: rabbitmqctl add_user roboshop roboshop123
+- name: adding user to 
+  ansible.builtin.shell: rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*"
