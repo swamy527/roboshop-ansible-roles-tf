@@ -1,11 +1,11 @@
 - name: create user
   ansible.builtin.user:
     name: roboshop
-- name: create directory
+- name: remove old directory
   ansible.builtin.file:
     path: /app
     state: absent
-- name: create directory
+- name: create new directory
   ansible.builtin.file:
     path: /app
     state: directory
