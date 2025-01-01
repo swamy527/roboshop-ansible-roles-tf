@@ -23,6 +23,8 @@
   ansible.builtin.get_url:
     url: "{{NEXUS_URL}}/{{component}}/{{group_id}}/{{component}}/{{app_version}}/{{component}}-{{app_version}}.zip"
     dest: /tmp
+    url_username: "admin"
+    url_password: "java"
 - name: unzipping file
   ansible.builtin.unarchive:
     src: "/tmp/{{component}}-{{app_version}}.zip"
