@@ -1,5 +1,5 @@
-    # - name: disable current version of mysql
-    #   ansible.builtin.shell: dnf module disable mysql -y
+    - name: disable current version of mysql
+      ansible.builtin.shell: dnf module disable mysql -y
     - name: copy mysql repo file
       ansible.builtin.copy:
         src: mysql.repo
