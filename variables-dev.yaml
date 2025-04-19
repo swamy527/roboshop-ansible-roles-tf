@@ -1,11 +1,11 @@
-MONGODB_HOST: mongodb-dev.beesh.life
-REDIS_HOST: redis-dev.beesh.life
+MONGODB_HOST: mongodb.beesh.life
+REDIS_HOST: redis.beesh.life
 CATALOGUE_HOST: catalogue.dev.beesh.life
 CART_HOST: cart.dev.beesh.life
 USER_HOST: user.dev.beesh.life
-MYSQL_HOST: mysql-dev.beesh.life
+MYSQL_HOST: mysql.beesh.life
 SHIPPING_HOST: shipping.dev.beesh.life
-RABBITMQ_HOST: rabbitmq-dev.beesh.life
+RABBITMQ_HOST: rabbitmq.beesh.life
 PAYMENT_HOST: payment.dev.beesh.life
 NEXUS_URL: http://3.80.129.216:8081/repository
 group_id: "com/roboshop"
