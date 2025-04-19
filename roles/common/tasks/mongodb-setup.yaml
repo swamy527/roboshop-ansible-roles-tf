@@ -2,7 +2,7 @@
   ansible.builtin.copy:
     src: mongo.repo
     dest: /etc/yum.repos.d
-- name: install nodejs
+- name: install mongo client
   ansible.builtin.package:
     name: mongodb-org-shell
     state: present
