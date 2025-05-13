@@ -7,5 +7,5 @@ MYSQL_HOST: mysql.beesh.life
 SHIPPING_HOST: shipping.dev.beesh.life
 RABBITMQ_HOST: rabbitmq.beesh.life
 PAYMENT_HOST: payment.dev.beesh.life
-NEXUS_URL: http://3.80.129.216:8081/repository
+NEXUS_URL: http://52.201.232.45:8081/repository
 group_id: "com/roboshop"
